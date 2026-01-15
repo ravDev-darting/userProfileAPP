@@ -9,5 +9,5 @@ class GetUserUseCase(
     private val repository: UserRepository
 ) {
     // Return the first user from the list
-    operator fun invoke(): Flow<User> = repository.getUsers().map { it.first() }
+    operator fun invoke(): Flow<List<User>> = repository.getUsers()
 }
