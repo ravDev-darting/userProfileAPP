@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userXmlFragment">
+
+    <!-- XML Fragment -->
+    <fragment
+        android:id="@+id/userXmlFragment"
+        android:name="com.example.userprofileapp.presentation.state.xml.UserXmlFragment"
+        android:label="User XML Fragment" >
+        <action
+            android:id="@+id/action_xml_to_compose"
+            app:destination="@id/userComposeFragment" />
+    </fragment>
+
+    <!-- Compose Fragment -->
+    <fragment
+        android:id="@+id/userComposeFragment"
+        android:name="com.example.userprofileapp.presentation.state.compose.UserComposeFragment"
+        android:label="User Compose Fragment" />
+</navigation>
