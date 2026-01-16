@@ -7,7 +7,7 @@ This app was created specifically to showcase Android architecture skills for **
 
 ---
 
-## 🎯 What This App Proves (Interview-Focused)
+## 🎯 What This App Proves 
 
 This project demonstrates:
 
